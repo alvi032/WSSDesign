@@ -123,3 +123,28 @@
     margin: auto;
     padding-bottom: 60px;
 }
+.expert-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--clr1);
+    color: white;
+    max-width: 350px;
+    text-align: center;
+    border-radius: 10px;
+    padding-top: 54px;
+    padding-bottom: 60px;
+}
+.expert-card p{
+    width: 80%;
+}
+.expert-card a{
+    color: var(--clr1);
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 14px 44px;
+    text-decoration: none;
+    margin-top: 30px;
+
+}

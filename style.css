@@ -1,0 +1,57 @@
+:root{
+    --clr1: #005396;
+    --clr2: #2cc0d3;
+    --clr3: #f3f3f3;
+}
+body, html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat;
+}
+.navbar{
+    display: flex;
+    max-width: 1364px;
+    margin: auto;
+    padding: 15px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(0,83,150,0.36);
+}
+#logo-header{
+    max-width: 237px;
+    padding-right: 50px;
+}
+#menu{
+    max-width: 885px;
+    width: 100%;
+}
+#menu ul{
+    padding: 0;
+    list-style: none;
+    display: flex;
+    max-width: 885px;
+    justify-content: space-between;
+}
+#menu ul li{
+    /*margin: 0 0 0 51px;*/
+}
+#menu ul li a{
+    color: var(--clr1);
+    background-color: transparent;
+    text-decoration: none;
+    font-size: 25px;
+    text-shadow: 0px 3px 6px 0px rgba(0,0,0,0.2);
+}
+#menu ul li:first-child{
+    /*margin: 0;*/
+}
+#menu ul li:last-child a{
+    color: #ffffff;
+    background-color: var(--clr2);
+    padding: 10px 36px;
+    border-radius: 9px;
+    -webkit-box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.16);
+    -moz-box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.16);
+    box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.16);
+}

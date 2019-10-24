@@ -1,0 +1,65 @@
+:root{
+    --clr1: #005396;
+    --clr2: #2cc0d3;
+    --clr3: #f3f3f3;
+}
+#introduction{
+    color: var(--clr1);
+    max-width: 1364px;
+    margin: auto;
+    text-align: center;
+}
+
+.intro-heading{
+    padding-top: 120px;
+    margin: 0;
+}
+.intro-heading-description{
+    padding-top: 18px;
+    margin: 0;
+}
+.intro-para{
+    max-width: 1094px;
+    margin: auto;
+    padding-top: 72px;
+}
+.packages{
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center;
+    max-width: 1094px;
+    margin: auto;
+    padding-top: 73px;
+}
+
+.resume-package{
+    border: 3px solid var(--clr1);
+    border-radius: 20px;
+    width: 95%;
+    margin: auto;
+}
+.resume-package a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--clr1);
+    text-decoration: none;
+}
+.resume-package img{
+    height: 100px;
+    /*padding: 35px;*/
+    padding-right: 17px;
+}
+.resume-package p{
+    padding-left: 17px;
+}
+.buyside{
+    background-color: var(--clr1);
+}
+.buyside p{
+    color: #fff;
+}
+.package-info{
+    max-width: 80%;
+}

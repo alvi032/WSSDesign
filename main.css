@@ -173,6 +173,7 @@
     max-width: 240px;
     width: 100%;
     margin: auto;
+    min-height: 160px;
 }
 .expert-link{
     margin-top: 32px;

@@ -40,6 +40,13 @@
     border-radius: 20px;
     width: 95%;
     margin: auto;
+    transition: 250ms;
+}
+.resume-package:hover{
+    transform: scale(1.02);
+    -webkit-box-shadow: 6px 8px 5px -5px rgba(0,0,0,0.5);
+    -moz-box-shadow: 6px 8px 5px -5px rgba(0,0,0,0.5);
+    box-shadow: 6px 8px 5px -5px rgba(0,0,0,0.5);
 }
 .resume-package a{
     display: flex;
@@ -79,9 +86,19 @@
 .how-it-works-heading{
     padding-top: 96px;
     padding-bottom: 12px;
-    border-bottom: 2px solid var(--clr1);
+    border-bottom: 3px solid var(--clr1);
     width: max-content;
     margin: auto;
+    position: relative;
+}
+.how-it-works-heading:after{
+    content:'';
+    display: block;
+    position: absolute;
+    width: 50%;
+    bottom: -5px;
+    right: 0px;
+    border-bottom: 8px solid var(--clr1);
 }
 .how-it-works-steps img{
     height: 110px;
@@ -128,7 +145,9 @@
     width: max-content;
     margin: auto;
     padding-bottom: 60px;
+    position: relative;
 }
+
 .expert-card{
     display: flex !important;
     flex-direction: column;
@@ -168,8 +187,9 @@
 }
 .clients-heading{
     max-width: max-content;
-    margin: auto;
-    padding: 90px 0 105px 0;
+    margin: 90px auto 105px auto;
+    /*border-bottom: 3px solid var(--clr1);*/
+    position: relative;
 }
 .client-icons{
     max-width: 100%;

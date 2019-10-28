@@ -117,6 +117,12 @@
     box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.25);
     margin-bottom: 90px;
 }
+#resume-review-experts .container{
+    padding-bottom: 200px;
+    border-bottom: 1px solid var(--clr1);
+    max-width: 1364px;
+    margin: auto;
+}
 .resume-review-experts-heading{
     padding-top: 68px;
     width: max-content;
@@ -124,20 +130,33 @@
     padding-bottom: 60px;
 }
 .expert-card{
-    display: flex;
+    display: flex !important;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     background-color: var(--clr1);
     color: white;
     max-width: 350px;
+    width: 100%;
     text-align: center;
     border-radius: 10px;
     padding-top: 54px;
     padding-bottom: 60px;
+    margin: auto;
 }
-.expert-card p{
-    width: 80%;
+.expert-card *{
+    margin: 0;
+}
+.expert-name{
+    margin-bottom: 44px;
+}
+.expert-intro{
+    max-width: 240px;
+    width: 100%;
+    margin: auto;
+}
+.expert-link{
+    margin-top: 32px;
 }
 .expert-card a{
     color: var(--clr1);
@@ -146,5 +165,70 @@
     padding: 14px 44px;
     text-decoration: none;
     margin-top: 30px;
-
+}
+.clients-heading{
+    max-width: max-content;
+    margin: auto;
+    padding: 90px 0 105px 0;
+}
+.client-icons{
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+.client-icons img{
+    max-height: 90px;
+}
+.upper-footer{
+    background-color: var(--clr1);
+    padding: 50px 0;
+}
+.upper-footer .container{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-logo{
+    max-height: 150px;
+}
+.icon-and-address{
+    display: flex;
+}
+.icon-and-address p{
+    padding-left:  110px;
+}
+.footer-links{
+    max-width: 450px;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+}
+.footer-links ul{
+    list-style: none;
+    padding: 0;
+}
+.footer-links a{
+    color: white;
+    text-decoration: none;
+}
+.quicklinks{
+    display: flex;
+    justify-content: space-between;
+}
+.social-links{
+    display: flex;
+    place-self: flex-end;
+    justify-content: space-between;
+    max-width: 220px;
+    width: 100%;
+}
+.lower-footer{
+    background-color: var(--clr2);
+    text-align: center;
+}
+.lower-footer p{
+    color: white;
+    margin: 0;
+    padding: 35px 0;
 }

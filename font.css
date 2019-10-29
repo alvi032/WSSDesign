@@ -17,6 +17,10 @@
 .regular-17{
     font-size: 17px;
 }
+.bold-17{
+    font-size: 17px;
+    font-weight: bold;
+}
 .bold-50{
     font-size: 50px;
     font-weight: bold;
@@ -27,4 +31,8 @@
 }
 .regular-25{
     font-size: 25px;
+}
+.bold-72{
+    font-size: 72px;
+    font-weight: bold;
 }
